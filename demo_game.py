@@ -120,7 +120,7 @@ def use(thing):
         inventory.add(obj)
     elif thing == World_Ender:
         say("The world Self Destructs" % thing)
-        quit
+        quit()
     else:
         say("You use %s" % thing)
         inventory.add(thing)
